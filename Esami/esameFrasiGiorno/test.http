@@ -1,0 +1,4 @@
+GET http://localhost:3000/citations
+
+###
+GET http://localhost:3000/citation/2

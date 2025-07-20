@@ -1,0 +1,8 @@
+[ 
+  { "id": 1, "title": "Concerto Rock", "date": "2024-11-15", "participated": false }, 
+  { "id": 2, "title": "Fiera del libro", "date": "2023-12-01", "participated": true }, 
+  { "id": 3, "title": "Conferenza Tech", "date": "2024-01-20", "participated": false }, 
+  { "id": 4, "title": "Maratona cittadina", "date": "2024-04-10", "participated": false }, 
+  { "id": 5, "title": "Festival Jazz", "date": "2024-02-18", "participated": false }, 
+  { "id": 6, "title": "Mostra d'arte", "date": "2023-10-22", "participated": true } 
+]

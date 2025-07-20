@@ -1,0 +1,4 @@
+GET http://localhost:3000/articoli
+
+###
+GET http://localhost:3000/autori

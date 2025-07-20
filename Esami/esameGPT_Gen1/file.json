@@ -1,0 +1,6 @@
+[
+  { "id": 1, "titolo": "1984", "autore": "George Orwell", "letti": false },
+  { "id": 2, "titolo": "Il piccolo principe", "autore": "Antoine de Saint-Exupéry", "letti": true },
+  { "id": 3, "titolo": "Il nome della rosa", "autore": "Umberto Eco", "letti": false },
+  { "id": 4, "titolo": "Orgoglio e pregiudizio", "autore": "Jane Austen", "letti": false }
+]

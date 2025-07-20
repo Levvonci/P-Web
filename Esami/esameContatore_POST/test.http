@@ -1,0 +1,7 @@
+GET http://localhost:3000/counter
+
+###
+POST http://localhost:3000/increase
+
+###
+POST http://localhost:3000/decrease

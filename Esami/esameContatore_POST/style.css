@@ -1,0 +1,89 @@
+body{
+    background-color: #f0f0f0;
+    color: whitesmoke;
+}
+header{
+    background-color: #333;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger div{
+    width:35px;
+    height:5px;  
+    background-color:black; 
+    margin:6px 0
+}
+
+main{
+    color: #333;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.algebra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.algebra button{
+    padding: 5px;
+    margin: 5px;
+}
+
+.theme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+
+}
+.theme button{
+    padding: 5px;
+    width: 171px;
+
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    background-color: #333;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+@media(max-width: 600px){
+    .menu{
+        display:none
+    }
+    .hamburger{
+        display: block;
+        margin-left: 45%;
+        margin-bottom: 10%;
+        margin-top: 20px;
+    }
+    .algebra{
+        display: grid
+    }
+    .theme button{
+        width: 83px
+    }
+}

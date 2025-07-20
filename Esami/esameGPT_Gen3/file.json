@@ -1,0 +1,8 @@
+[ 
+  { "id": 1, "task": "Portare fuori il cane", "done": false }, 
+  { "id": 2, "task": "Scrivere la relazione", "done": true }, 
+  { "id": 3, "task": "Fare la spesa", "done": false }, 
+  { "id": 4, "task": "Rivedere appunti", "done": true }, 
+  { "id": 5, "task": "Telefonare al medico", "done": false }, 
+  { "id": 6, "task": "Preparare la cena", "done": false } 
+]

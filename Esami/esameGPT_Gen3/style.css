@@ -1,0 +1,78 @@
+body{
+    margin: 15px auto;
+    min-width: 350px;
+    max-width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer{
+    height: 70px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #b0b0b0
+}
+.theme-selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+.filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+}
+.tutti{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-color: #b0b0b0;
+    margin-right: 1px;
+    color: black;
+    padding: 7px;
+}
+
+.da-fare{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-color: #b0b0b0;
+    margin-left: 2px;
+    color: black;
+    padding: 7px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 400px 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #b0b0b0;
+    margin: 10px;
+}
+
+.box button{
+    background-color: rgb(134, 185, 134);
+    color: white;
+    margin: 10px;
+    padding: 7px;
+}
+
+.box p{
+    margin-left: 3px;
+}
+
+@media(max-width: 800px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+}
